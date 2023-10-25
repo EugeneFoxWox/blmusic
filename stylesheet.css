@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+}
+header{
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+ 
+    
+}
+.title{
+    display: flex;
+    margin: 20px;
+    font-size: 6ch;
+    height: 60px;
+    width: 200px;
+    color: rgb(119, 170, 204);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.eph1{
+    margin: 20px;
+    height: 100px;
+    width: 350px;
+    color: white;
+    background-color: black;
+    
+}
+li{
+    list-style: none;
+}
+.p{
+    color: white;
+    background-color: black;
+    width: 500px;
+    margin-left: 35px;
+}
+.menu{
+    width: 300px;
+    height: 60px;
+    padding: 10px 30px;
+    
+    
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    color: rgb(67, 67, 106);
+    justify-content: space-between;
+    
+    
+}
+.fhoto img{
+    margin-left: 20px;
+    height: 500px;
+    width: 450px;
+    border-radius: 0.2cm;
+}
+.preview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-bottom: 80px;
+}
+.startep{
+    height: 100px;
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.episod{
+    height: 360px;
+    padding: 10;
+    margin: 15px;
+    border-radius: 0.2cm;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.epcontent{
+    margin: 10px 15px;
+    background-color: black;
+}
+.episod img{
+    margin-left: 30px;
+    height: 300px;
+    width: 300px;
+}
+button{
+    margin-top: 60px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: rgb(79, 161, 184);
+    border-radius: 0.2cm;
+}
